@@ -7,6 +7,10 @@
   justify-content: space-around;
 }
 
+.decision__item {
+  width: 33.3%;
+}
+
 .decision__h2 {
   width: 100%;
   font-family: "Montserrat";
@@ -47,9 +51,9 @@
 
 .decision-img__list {
   position: absolute;
-  top: 68px;
-  left: 83px;
-  width: 166px;
+  top: 76px;
+  left: 105px;
+  width: 165px;
   z-index: 2;
 }
 

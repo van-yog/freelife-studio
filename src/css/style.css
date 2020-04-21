@@ -1,8 +1,6 @@
-@import url("../fonts/CenturyGothic.css");
-@import url("../fonts/FuturaPT.css");
+@import url("../fonts/fonts-all.css");
 
 @import url("./navigation.css");
-@import url("./../fonts/CenturyGothic/CenturyGothic.css");
 @import url("./create.css");
 @import url("./slider.css");
 @import url("./decision.css");
