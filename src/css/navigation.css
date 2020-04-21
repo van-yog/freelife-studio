@@ -1,0 +1,63 @@
+.navigation {
+  padding-top: 22px;
+  margin-bottom: 42px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Left block */
+.navigation_m {
+  margin: -3px;
+}
+
+.navigation__logo {
+  margin-top: -3px;
+  font-family: "Century Gothic";
+  font-size: 32.5px;
+  font-weight: normal;
+  color: #50626d;
+}
+
+.navigation__logo-studio {
+  font-weight: bold;
+  letter-spacing: 4.88px;
+  color: #50626d;
+}
+
+.navigation__text {
+  font-family: "FuturaBookC";
+  font-size: 17px;
+  font-weight: 300;
+  color: #55c4d9;
+}
+
+/* Right block */
+.navigation_phone-m {
+  margin-top: 2px;
+}
+.navigation__phone {
+  position: relative;
+  font-family: "FuturaBookC";
+  font-weight: bold;
+  font-size: 24px;
+  text-align: right;
+}
+
+.navigation__phone-number {
+  display: block;
+  margin-top: 2px;
+  color: rgba(96, 116, 128, 0.5);
+}
+
+.navigation__phone-icon {
+  position: absolute;
+  left: -41px;
+  top: -18px;
+  z-index: 0;
+}
+
+.navigation__social-icon {
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -25px;
+}

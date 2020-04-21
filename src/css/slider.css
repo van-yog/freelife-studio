@@ -1,0 +1,19 @@
+.slider {
+  position: relative;
+}
+
+.slider__img-1 {
+  position: absolute;
+  width: 758px;
+  height: 418px;
+  left: -188px;
+  top: 120px;
+}
+
+.slider__img-2 {
+  position: absolute;
+  top: -54px;
+  left: -62px;
+  width: 758px;
+  height: 418px;
+}

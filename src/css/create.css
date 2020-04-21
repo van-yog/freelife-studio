@@ -1,0 +1,45 @@
+.create {
+  width: 60%;
+}
+
+.create__slogan {
+  font-family: Montserrat;
+  font-size: 89.5px;
+  font-weight: bold;
+  line-height: 1;
+  color: #48d8e4;
+  margin-bottom: 24px;
+  margin-left: -8px;
+}
+
+.create__slogan-white {
+  display: inline-block;
+  padding-top: 14px;
+  color: #fff;
+}
+
+.create__text {
+  margin-left: -4px;
+  width: 330px;
+  height: 51px;
+  font-family: "FuturaBookC";
+  font-size: 24px;
+  font-weight: 500;
+  color: #48d8e4;
+  margin-bottom: 38px;
+  line-height: 0.6;
+}
+
+.create__btn {
+  display: inline-block;
+  padding: 26px 96px;
+  box-shadow: 0.3px 5px 60px 0 rgba(82, 172, 219, 0.5), inset 0px -5px 0 0 #37b3bd;
+  background-image: linear-gradient(to left, #3cf9ba, #48d8e4);
+  font-family: "FuturaBookC";
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-radius: 36px;
+}

@@ -1,0 +1,57 @@
+.contact {
+  display: flex;
+
+  margin-bottom: 93px;
+}
+
+.contact__width-l {
+  width: 645px;
+}
+.contact__left {
+  display: flex;
+}
+
+.contact__days-gif {
+  background-image: url("../icon/contact-20.gif");
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
+.contact__days {
+  display: block;
+  padding-top: 4px;
+  font-size: 180px;
+  font-family: "FuturaBookC";
+  font-weight: bold;
+  color: transparent;
+  margin-top: -37px;
+}
+
+.contact__h4 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: -15px;
+  margin-top: 19px;
+  display: block;
+  z-index: 2;
+}
+
+.contact__text {
+  font-family: "FuturaBookC";
+  font-size: 18px;
+  text-align: left;
+  margin-top: -28px;
+  margin-left: -13px;
+  color: #586973;
+}
+
+.contact__info {
+  background-color: #607480;
+  padding: 2px 4px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50px;
+}

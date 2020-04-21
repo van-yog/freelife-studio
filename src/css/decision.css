@@ -1,0 +1,102 @@
+.decision {
+  margin-bottom: 120px;
+}
+
+.decision__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.decision__h2 {
+  width: 100%;
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  text-align: center;
+  color: #48d8e4;
+  margin-bottom: 43px;
+}
+
+.decision__h2-white {
+  color: white;
+}
+
+.decision-img {
+  position: relative;
+}
+
+.decision-img__property {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 42px;
+  height: 39px;
+  z-index: 1;
+  margin-bottom: 21px;
+}
+
+.decision-img__bg {
+  position: relative;
+  width: 179px;
+  padding-left: 5px;
+  display: block;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.decision-img__list {
+  position: absolute;
+  top: 68px;
+  left: 83px;
+  width: 166px;
+  z-index: 2;
+}
+
+.desicion__h3 {
+  font-family: "FuturaBookC";
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.desicion__text {
+  font-size: 18px;
+  color: #607480;
+  text-align: center;
+  font-family: "FuturaBookC";
+}
+
+.desicion__price {
+  text-align: center;
+  margin: 31px auto 0 auto;
+}
+.desicion__price-style {
+  padding: 9px 15px;
+  position: relative;
+  font-family: "FuturaBookC";
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.desicion__price-style::after {
+  content: "";
+  position: absolute;
+  width: 116px;
+  height: 32px;
+  left: 0;
+  top: 4px;
+  border-radius: 8px;
+  background-color: #48d8e4;
+  transform: skew(-20deg);
+  box-shadow: 0.3px 5px 27px 3px rgba(82, 172, 219, 0.5);
+  z-index: -1;
+}
