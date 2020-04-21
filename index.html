@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body>
+    <!-- Background stars -->
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
     <div class="container bg-up">
       <!-- Navigation and contacts -->
       <div class="navigation">
@@ -54,13 +59,23 @@
         </div>
       </div>
 
+      <!-- Second screen -->
       <section class="decision">
         <h2 class="decision__h2">Решения, которые <span class="decision__h2-white">будут работать</span> на вас</h2>
         <div class="decision__list">
           <section class="decision__item">
             <div class="decision-img">
-              <img class="decision-img__property" src="./src/icon/decision-propery.png" alt="Решения" />
-              <img class="decision-img__bg" src="./src/icon/decision-bg.png" alt="Решения бизнеса" />
+              <img
+                class="decision-img__property rotate__animation"
+                src="./src/icon/decision-propery.png"
+                alt="Решения"
+              />
+              <img
+                class="decision-img__bg rotate-zoom__animation"
+                src="./src/icon/decision-bg.png"
+                alt="Решения бизнеса"
+              />
+              <img class="decision-img__bg-dark" src="./src/icon/decision-bg.png" alt="Решения бизнеса" />
 
               <img class="decision-img__list" src="./src/icon/decision-list.png" alt="Список решений" />
             </div>
@@ -71,12 +86,25 @@
               Разработка логотипа, визиток, печатной <br />
               продукции. Оформление соцсетей
             </p>
+            <p class="desicion__price">
+              <span class="desicion__price-style">от 5000 &#8381;</span>
+            </p>
           </section>
 
           <section class="decision__item">
             <div class="decision-img">
-              <img class="decision-img__property" src="./src/icon/decision-propery.png" alt="Решения" />
-              <img class="decision-img__bg" src="./src/icon/decision-bg.png" alt="Решения бизнеса" />
+              <img
+                class="decision-img__property rotate__animation"
+                src="./src/icon/decision-propery.png"
+                alt="Решения"
+              />
+              <img
+                class="decision-img__bg rotate-zoom__animation"
+                src="./src/icon/decision-bg.png"
+                alt="Решения бизнеса"
+              />
+
+              <img class="decision-img__bg-dark" src="./src/icon/decision-bg.png" alt="Решения бизнеса" />
 
               <img class="decision-img__list" src="./src/icon/decision-list.png" alt="Список решений" />
             </div>
@@ -87,12 +115,25 @@
               Создание сайтов под ключ: от дизайна до <br />
               реализации и запуска сайта (Tlda, HTML, PHP)
             </p>
+            <p class="desicion__price">
+              <span class="desicion__price-style">от 15000 &#8381;</span>
+            </p>
           </section>
 
           <section class="decision__item">
             <div class="decision-img">
-              <img class="decision-img__property" src="./src/icon/decision-propery.png" alt="Решения" />
-              <img class="decision-img__bg" src="./src/icon/decision-bg.png" alt="Решения бизнеса" />
+              <img
+                class="decision-img__property rotate__animation"
+                src="./src/icon/decision-propery.png"
+                alt="Решения"
+              />
+              <img
+                class="decision-img__bg rotate-zoom__animation"
+                src="./src/icon/decision-bg.png"
+                alt="Решения бизнеса"
+              />
+
+              <img class="decision-img__bg-dark" src="./src/icon/decision-bg.png" alt="Решения бизнеса" />
 
               <img class="decision-img__list" src="./src/icon/decision-list.png" alt="Список решений" />
             </div>
@@ -103,13 +144,14 @@
               Настройка, запуск и ведение рекламных <br />
               компаний Google | Yandex
             </p>
+            <p class="desicion__price">
+              <span class="desicion__price-style">от 12000 &#8381;</span>
+            </p>
           </section>
         </div>
-        <p class="desicion__price">
-          <span class="desicion__price-style">от 15000 &#8381;</span>
-        </p>
       </section>
 
+      <!-- Third screen -->
       <div class="contact">
         <div class="contact__width-l">
           <div class="contact__left">
@@ -158,27 +200,28 @@
           </ul>
         </div>
       </div>
-    </div>
 
-    <div class="footer">
-      <footer>
-        <p class="footer__text">FreeLife <span class="footer__text-style">Studio</span></p>
-        <ul class="footer__list">
-          <li class="footer__item">
-            <a class="footer__color" href="">
-              Создание сайтов
-            </a>
-          </li>
-          <li class="footer__item">
-            |
-          </li>
-          <li class="footer__item">
-            <a class="footer__color" href="footer__color">
-              Упаковка бизнеса
-            </a>
-          </li>
-        </ul>
-      </footer>
+      <!-- Footer -->
+      <div class="footer">
+        <footer>
+          <p class="footer__text">FreeLife <span class="footer__text-style">Studio</span></p>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__color" href="">
+                Создание сайтов
+              </a>
+            </li>
+            <li class="footer__item">
+              |
+            </li>
+            <li class="footer__item">
+              <a class="footer__color" href="footer__color">
+                Упаковка бизнеса
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
