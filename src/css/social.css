@@ -18,24 +18,32 @@
 }
 
 .social__phone {
+  opacity: 0;
   width: 66px;
   height: 67px;
   margin-left: 11px;
+  transition: 0.7s ease-in-out all;
 }
 
 .social__telegram {
+  opacity: 0;
   width: 67px;
   height: 59px;
   margin-left: 10px;
+  transition: 0.7s ease-in-out all;
 }
 
 .social__viber {
+  opacity: 0;
   width: 84px;
+  transition: 0.7s ease-in-out all;
 }
 
 .social__messenger {
+  opacity: 0;
   width: 67px;
   height: 66px;
+  transition: 0.7s ease-in-out all;
 }
 
 .social__list {
@@ -43,4 +51,18 @@
   margin-top: -8px;
   justify-content: space-around;
   align-items: center;
+}
+
+.social__phone:hover {
+  opacity: 1;
+}
+
+.social__telegram:hover {
+  opacity: 1;
+}
+.social__viber:hover {
+  opacity: 1;
+}
+.social__messenger:hover {
+  opacity: 1;
 }
