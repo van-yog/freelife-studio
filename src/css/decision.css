@@ -39,6 +39,12 @@
   margin-bottom: 21px;
 }
 
+.decision-img__property::after {
+  position: absolute;
+  content: " ";
+  background-image: url("../icon/dicision-line.png");
+}
+
 .rotate__animation {
   animation: 3s linear 0s normal none infinite running rotate;
   -webkit-animation: 3s linear 0s normal none infinite running rotate;
@@ -80,6 +86,11 @@
   -webkit-animation: 6s linear 0s normal none infinite running rotate-zoom;
 }
 
+.rotate-zoom__animation-bg {
+  animation: 10s ease-in-out normal none infinite running rotate-zoom-bg;
+  -webkit-animation: 6s ease-in-out 0s normal none infinite running rotate-zoom-bg;
+}
+
 @keyframes rotate-zoom {
   0% {
     transform: rotate(0deg);
@@ -92,7 +103,16 @@
   }
 }
 
-@keyframe rotate-zoom {
+@keyframes rotate-zoom-bg {
+  0% {
+    transform: scale(1.05) rotate(55deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(40deg);
+  }
+  100% {
+    transform: scale(1.05) rotate(55deg);
+  }
 }
 
 .decision-img__list {
