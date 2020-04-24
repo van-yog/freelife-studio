@@ -70,7 +70,7 @@
   animation: 2.4s ease-in-out none alternate 2 moveOutDown;
 }
 .slider__animation-6 {
-  animation: 2.4s ease-in-out none normal 2 moveOutUp;
+  animation: 2.4s ease-in-out none alternate 2 moveOutUp;
 }
 
 .slider__animation-7 {

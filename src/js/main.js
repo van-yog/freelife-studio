@@ -171,9 +171,3 @@ function startAndDel() {
     window.removeEventListener("scroll", startAndDel);
   }
 }
-
-// window.addEventListener("scroll", (elem) => {
-//   let ham = document.querySelector(".ham_btn");
-//   ham.classList.add("ham_btn-scroll");
-//   if (window.scrollY === 0) ham.classList.remove("ham_btn-scroll");
-// });
