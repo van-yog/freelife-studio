@@ -24,7 +24,7 @@ social.addEventListener("click", () => {
 
 // Change text
 
-let words = ["сайты", "лендинги", "рекламные компании"],
+let words = ["сайты", "лендинги", "рекламные кампании"],
   currentStep = 0,
   textEl = document.querySelector(".create__change-text"),
   oldWord = "";
