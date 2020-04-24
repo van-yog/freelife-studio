@@ -3,6 +3,8 @@
   margin-bottom: 42px;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 5;
 }
 
 /* Left block */
@@ -51,13 +53,7 @@
 
 .navigation__phone-icon {
   position: absolute;
-  left: -41px;
-  top: -18px;
+  right: 187px;
+  top: -19px;
   z-index: 0;
-}
-
-.navigation__social-icon {
-  text-align: right;
-  margin-top: -15px;
-  margin-right: -25px;
 }

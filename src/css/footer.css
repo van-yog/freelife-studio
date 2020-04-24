@@ -1,6 +1,8 @@
 .footer {
-  margin-bottom: 5px;
+  padding-bottom: 5px;
   position: relative;
+  padding-top: 93px;
+  overflow: hidden;
 }
 .footer__list {
   display: flex;
@@ -33,6 +35,18 @@
 .footer__color {
   text-decoration: none;
   color: #55c4d9;
+}
+
+footer::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 100px;
+  border-radius: 50%;
+  bottom: -50px;
+  left: 40%;
+  background-color: #0a121b;
+  z-index: -1;
 }
 
 footer::before {

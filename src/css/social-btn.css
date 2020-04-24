@@ -1,0 +1,33 @@
+.social-btn {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-right: -24px;
+  margin-top: -10px;
+}
+
+.social-btn__a {
+  display: none;
+  position: absolute;
+  height: 45px;
+  top: 20px;
+  right: 30px;
+  transition: 0.5s all ease-in-out;
+}
+
+.social-btn__a img {
+  height: 45px;
+}
+
+.social-btn__position {
+  align-self: center;
+}
+
+.social-btn__show {
+  display: block;
+}
+
+.social-btn__hover {
+  transform: scale(1);
+  transition: 0.5s all ease-in-out;
+}
