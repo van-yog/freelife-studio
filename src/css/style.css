@@ -27,7 +27,6 @@ ul {
 body {
   height: 1715px;
   z-index: -1;
-  /* background-image: url("./../img/bg.png"); */
   color: aliceblue;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -35,6 +34,10 @@ body {
 
 .overflow {
   margin: -6px;
+  overflow: hidden;
+}
+
+.karina {
   overflow: hidden;
 }
 

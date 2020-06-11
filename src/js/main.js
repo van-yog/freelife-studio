@@ -55,6 +55,7 @@ function deleteWord() {
   // The word is deleted so, start adding in the new one
   if (currentLength < 1) {
     changeWord();
+
     return;
   }
 
@@ -75,6 +76,13 @@ function addNextWord() {
     return;
   }
 
+  if (nextWord === "рекламные кампании") {
+    console.log("company");
+    textEl.classList.add("create__slogan-company");
+  } else {
+    console.log("no-company");
+    textEl.classList.remove("create__slogan-company");
+  }
   // add a charachter
   textEl.innerHTML = nextWord.substring(0, currentLength + 1);
 

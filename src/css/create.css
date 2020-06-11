@@ -12,15 +12,16 @@
   color: #48d8e4;
   margin-bottom: 24px;
   margin-left: -8px;
-  height: 360px;
 }
 
 .create__slogan-white {
-  display: inline-block;
   padding-top: 14px;
   font-size: 75px;
-  width: 565px;
   color: #fff;
+}
+
+.create__slogan-company {
+  font-size: 55px;
 }
 
 .create__text {
@@ -65,22 +66,16 @@
   left: 0;
   right: 0;
   background: linear-gradient(to left, #3cf9ba, #48d8e4);
-  background: linear-gradient(45deg, orangeRed 50%, transparent 50%);
   border-radius: 36px;
   z-index: -1;
-}
-
-.create__btn,
-.create__btn:after {
-  background-size: 300%;
-  background-position: 100%;
-  transition: 1s;
+  transition: all ease-in-out 1s;
 }
 
 .create__btn:hover,
 .create__btn:hover:after {
-  background-position: 0;
+  background: linear-gradient(to left, #48d8e4, #48d8e4);
   cursor: pointer;
+  transition: all ease-in-out 1s;
 }
 
 @keyframes blinking {
