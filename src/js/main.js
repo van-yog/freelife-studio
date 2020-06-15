@@ -89,52 +89,6 @@ function addNextWord() {
   setTimeout(addNextWord, 200);
 }
 
-// Slider
-// let countAnimation = 0;
-// makeSlider();
-
-// function makeSlider() {
-//   slider();
-//   setInterval(slider, 8000);
-// }
-
-// function slider() {
-//   countAnimation++;
-//   let slider1 = document.querySelector("#slider1");
-//   let slider2 = document.querySelector("#slider2");
-//   let slider3 = document.querySelector("#slider3");
-//   let slider4 = document.querySelector("#slider4");
-
-//   let i = (countAnimation % 6) + 1;
-//   slider1.classList.add(`slider__animation-${i}`);
-//   slider2.classList.add(`slider__animation-${i}`, "slider__animation-delay");
-
-//   let i2 = ((countAnimation + 2) % 6) + 7;
-//   slider3.classList.add(`slider__animation-${i2}`);
-//   slider4.classList.add(`slider__animation-${i2}`, "slider__animation-delay");
-
-//   setTimeout(() => {
-//     slider1.classList.add("slider__animation-paused");
-//     slider2.classList.add("slider__animation-paused");
-//     slider3.classList.add("slider__animation-paused");
-//     slider4.classList.add("slider__animation-paused");
-//   }, 2500);
-
-//   setTimeout(() => {
-//     slider1.classList.remove("slider__animation-paused");
-//     slider2.classList.remove("slider__animation-paused");
-//     slider3.classList.remove("slider__animation-paused");
-//     slider4.classList.remove("slider__animation-paused");
-//   }, 5000);
-
-//   setTimeout(() => {
-//     slider1.classList.remove(`slider__animation-${i}`);
-//     slider2.classList.remove(`slider__animation-${i}`);
-//     slider3.classList.remove(`slider__animation-${i2}`);
-//     slider4.classList.remove(`slider__animation-${i2}`);
-//   }, 7500);
-// }
-
 // Кнопка Наши Услуги
 
 let create__btn = document.querySelector(".create__btn");
@@ -179,3 +133,14 @@ function startAndDel() {
     window.removeEventListener("scroll", startAndDel);
   }
 }
+
+let info = document.querySelector(".contact__info");
+info.addEventListener("mouseover", () => {
+  let popUp = document.querySelector(".contact__info-pop-up");
+  popUp.style = "opacity:1;";
+});
+
+info.addEventListener("mouseout", () => {
+  let popUp = document.querySelector(".contact__info-pop-up");
+  popUp.style = "opacity:0;";
+});
