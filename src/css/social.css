@@ -17,33 +17,33 @@
   color: #586973;
 }
 
-.social__phone {
-  opacity: 0.7;
-  width: 66px;
-  height: 67px;
-  margin-left: 11px;
-  transition: 0.2s ease-in-out all;
+.social__item {
+  opacity: 0.15;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #00ffff;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: 0.2s all;
 }
 
-.social__telegram {
-  opacity: 0.7;
-  width: 67px;
-  height: 59px;
-  margin-left: 10px;
-  transition: 0.2s ease-in-out all;
+.social__img {
+  width: 35px;
+  transition: 0.2s all;
 }
 
-.social__viber {
-  opacity: 0.7;
-  width: 84px;
-  transition: 0.2s ease-in-out all;
+.social__telegram-img {
+  margin-left: -5px;
+  margin-top: 3px;
 }
 
-.social__messenger {
-  opacity: 0.7;
-  width: 67px;
-  height: 66px;
-  transition: 0.2s ease-in-out all;
+.social__viber-img {
+  margin-left: 2px;
+  margin-top: 3px;
 }
 
 .social__list {
@@ -52,17 +52,28 @@
   justify-content: space-around;
   align-items: center;
 }
+.social__item:hover {
+  opacity: 1;
+}
 
 .social__phone:hover {
   opacity: 1;
+  border: 2px solid #00b147;
+  box-shadow: 0 0 20px #00b147;
 }
 
 .social__telegram:hover {
   opacity: 1;
+  border: 2px solid #00d9e5;
+  box-shadow: 0 0 20px #00d9e5;
 }
 .social__viber:hover {
   opacity: 1;
+  border: 2px solid #a61faf;
+  box-shadow: 0 0 20px #a61faf;
 }
 .social__messenger:hover {
   opacity: 1;
+  border: 2px solid #0084ff;
+  box-shadow: 0 0 20px #0084ff;
 }

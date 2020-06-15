@@ -1,5 +1,6 @@
 .contact {
   display: flex;
+  position: relative;
 }
 
 .contact__width-l {
@@ -23,7 +24,7 @@
   font-family: "Montserrat";
   font-weight: bold;
   color: transparent;
-  margin-top: -52px;
+  margin-top: -50px;
 }
 
 .contact__h4 {

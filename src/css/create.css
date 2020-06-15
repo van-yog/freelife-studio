@@ -58,24 +58,11 @@
   position: relative;
 }
 
-.create__btn:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to left, #3cf9ba, #48d8e4);
-  border-radius: 36px;
-  z-index: -1;
-  transition: all ease-in-out 1s;
-}
-
-.create__btn:hover,
-.create__btn:hover:after {
+.create__btn:hover {
   background: linear-gradient(to left, #48d8e4, #48d8e4);
+  box-shadow: 0.3px 5px 27px 3px rgba(82, 172, 219, 0.5);
   cursor: pointer;
-  transition: all ease-in-out 1s;
+  transition: all ease-in-out 0.4s;
 }
 
 @keyframes blinking {
